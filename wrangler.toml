@@ -1,0 +1,4 @@
+name = "gh-raw-proxy"
+workers_dev = true
+compatibility_date = "2022-10-03"
+main = "src/index.js"

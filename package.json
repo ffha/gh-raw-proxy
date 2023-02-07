@@ -1,0 +1,18 @@
+{
+  "name": "gh-raw-proxy",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ffha/gh-raw-proxy.git",
+  "author": "Alan Feng <alanfeng_2020@qq.com>",
+  "license": "GPL-3",
+  "private": true,
+  "dependencies": {
+    "mime-types": "^2.1.35",
+    "reflare": "^1.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0",
+    "@types/mime-types": "^2.1.1",
+    "typescript": "^4.9.5"
+  }
+}
