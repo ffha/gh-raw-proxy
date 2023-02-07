@@ -18,6 +18,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Checkout
+      uses: action/checkout@v3
     # Runs a single command using the runners shell
     - name: Setup Node
       uses: actions/setup-node@v3
@@ -28,6 +30,6 @@ jobs:
       run: yarn
       
     - name: Deploy to workers
-      uses: cloudflare/wrangler-action@2
+      uses: cloudflare/wrangler-action@2.0.0
       with:
        apiToken: ${{ secrets.CF_API_TOKEN }}
